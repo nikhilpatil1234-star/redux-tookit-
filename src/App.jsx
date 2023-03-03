@@ -1,15 +1,14 @@
-
-import './App.css'
-import Counter from './features/counter/Counter'
+import "./App.css";
+import PostList from "./features/posts/postList";
+// import Counter from './features/counter/Counter'
 
 function App() {
-
   return (
     <div className="App">
-      <Counter/>
-     
+      {/* <Counter/> */}
+      <PostList />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
